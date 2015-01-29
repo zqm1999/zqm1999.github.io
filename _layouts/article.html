@@ -1,17 +1,15 @@
- <html>
-     {% include head.html %}
-     <body>
-         {% include titlehead.html %}
-         
-         <div class="container">
-             <div class="col-md-8 col-md-offset-2">
-                 <div class="article">
-                     <h1>{{ post.title }}</h1>
-                     <small>{{ post.date | date_to_string }}</small>
-                     <p>{{ post.content }}</p>
-                 </div>
-             </div>
-         </div>
-         {% include footer.html %}
-     </body>
-</html>
+---
+layout: default
+---
+    
+    <div class="articles">
+    {% for post in site.posts %}
+        <div>
+            <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+            <small>{{ post.date | date_to_string }}</small>
+            <p>{{ post.content }}</p>
+        </div>
+    {% endfor %}
+    </div>
+    
+    <div class="sidebar"></div>
