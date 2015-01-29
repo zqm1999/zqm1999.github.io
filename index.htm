@@ -11,6 +11,25 @@ title: Home
             <p>{{ post.excerpt }}</p>
         </div>
     {% endfor %}
+        
+        <div class="pagination">
+ 
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="/" target="_self">..</a>
+    {% else %}
+      <a class="pagination-item newer" href="/page{{paginator.previous_page}}" target="_self">..</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">..</span>
+  {% endif %}
+   {% if paginator.next_page %}
+    <a class="pagination-item older" href="/page{{paginator.next_page}}" target="_self">...</a>
+  {% else %}
+    <span class="pagination-item older">...</span>
+    
+  {% endif %}
+</div>
     </div>
     
     <div class="sidebar"></div>
