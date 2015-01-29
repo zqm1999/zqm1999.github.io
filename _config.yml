@@ -1,2 +1,18 @@
-baseurl: 
-encoding: utf-8
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Test
+tagline:          'Never left without saying goodbye'
+description:      "Astrian's blog"
+url:              http://mdblog.astrianfm.com
+
+author:
+  name:           'Astrian'
+  email:          mingriqd@gmail.com
+
+paginate:      5
