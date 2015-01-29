@@ -12,6 +12,7 @@ tagline: 'Never left without love, peace, and saying goodbye.'
 description: "Astrian's blog"
 url: http://mdblog.astrianfm.com
 future: false
+timezone: Asia/beijing
 
 author:
   name: 'Astrian'
