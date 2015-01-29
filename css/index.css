@@ -64,3 +64,7 @@ img{
 .footer-menu a:link {color:#f0f0f0;}
 .footer-menu a:hover {color:#d9d9d9;text-decoration:none;}
 .footer-menu a:active {color:#d9d9d9;text-decoration:none;}
+
+#info{
+    padding-top: 10px;
+}
