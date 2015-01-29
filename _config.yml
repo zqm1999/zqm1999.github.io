@@ -1,1 +1,7 @@
-baseurl: 
+auto: true
+
+markdown: rdiscount
+
+title: 测试
+url: http://mdblog.astrianfm.com
+author_info: Astrian
