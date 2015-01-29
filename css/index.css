@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(237, 237, 237);
+    font-family: Roboto,'Noto Sans S Chinese','Hei','Mircosoft Yahei';
+}
+
+a:visited {color:#696969;}
+a:link {color:#696969;}
+a:hover {color:#898989;text-decoration:none;}
+a:active {color:#898989;text-decoration:none;}
+
+.titlehead{
+    background-color: rgba(0,0,0,1);
+    background-image: url('./Psypho%20pass.jpg');
+    background-position: 100%;
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+
+.page-title{
+    padding-top: 15%;
+    padding-bottom: 3%;
+    color: white;
+    font-family: 'STFangsong';
+    font-style: italic;
+}
+
+.page-title p{
+    font-size: 16px;
+}
+
+.nav{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    background-color: rgb(11, 11, 11);
+}
+
+.nav a:visited {color:#f0f0f0;}
+.nav a:link {color:#f0f0f0;}
+.nav a:hover {color:#d9d9d9;text-decoration:none;}
+.nav a:active {color:#d9d9d9;text-decoration:none;}
