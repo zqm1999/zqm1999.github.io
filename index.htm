@@ -7,6 +7,6 @@ title: Home
         <div>
             <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
             <small>{{ post.date | date_to_string }}</small>
-            <p>{{ post.content  ||split:'<!-- more -->' | first }}</p>
+            <p>{{ post.content  ||| first }}</p>
         </div>
     {% endfor %}
