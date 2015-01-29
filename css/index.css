@@ -43,3 +43,7 @@ a:active {color:#898989;text-decoration:none;}
 img{
     width: 100%;
 }
+
+.tagline{
+    font-family: 'La Belle Aurore', cursive;
+}
