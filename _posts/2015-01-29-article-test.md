@@ -1,5 +1,5 @@
 ---
-layout: aritcle
+layout: article
 title: 测试文章
 categories： test
 ---
