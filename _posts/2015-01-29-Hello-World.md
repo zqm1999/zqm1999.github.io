@@ -7,4 +7,4 @@
 
 hello world!
 
-![Psypho-Pass](./2015-01-29-Hello-World/Psypho_pass.jpg)
+![Psypho-Pass](http://mdblog.astrianfm.com/Pics/psypho_pass/Psypho_pass.jpg)
