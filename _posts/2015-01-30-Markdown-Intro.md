@@ -21,7 +21,7 @@ Markdown 是一种标记语言。标记语言指的是一种在文章上添加�
 
 这就是 Markdown 的语法了。现在你所看到的这篇文章就是使用 Markdown 来编写的。[^2]
 
-[^2]: 这篇文章的源代码在我的 GitHub 上可以找到。
+[^2]: 这篇文章的源代码在[这里](https://raw.githubusercontent.com/Astrian/astrian.github.io/master/_posts/2015-01-30-Markdown-Intro.md)可以找到。
 
 ## 为什么要使用 Markdown？
 
@@ -35,7 +35,7 @@ Markdown 的语法非常的易于上手，只需花一些时间将这篇文章�
 
 我们以往写作，喜欢先写一个提纲或框架，然后再填充内容进去。Markdown 的语言特点允许我们很方便地通过提纲来快速组织思路。比如，我在撰写这篇文章之前，就先写了一个提纲。然后我再用提纲来快速组织我的思路，填充这些内容。
 
-![Markdown 提纲](http://mdblog.astrianfm.com/Pics/2015-01-29-Markdown-intro/Markdown-list.png)
+![Markdown 提纲](http://mdblog.astrianfm.com/Pics/2015-01-30-Markdown-intro/Markdown-list.png)
 
 ### 兼容性与可读性强
 
