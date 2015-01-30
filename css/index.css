@@ -12,6 +12,11 @@ p{
     font-size: 18px;
 }
 
+.maincontent{
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
 .titlehead{
     background-color: rgba(0,0,0,1);
     background-image: url('http://mdblog.astrianfm.com/Pics/psypho_pass/Psypho_pass.jpg');
