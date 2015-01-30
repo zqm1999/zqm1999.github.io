@@ -7,17 +7,17 @@ highlighter: pygments
 permalink: pretty
 
 # Setup
-title: 写在边上
-tagline: 'Never left without saying goodbye.'
-description: "Astrian's Markdown blog."
-url: http://mdblog.astrianfm.com
+title: Rainbow
+tagline: 'Another Jekyll blog.'
+description: "...with love and peace."
+url: http://www.example.com
 future: false
 timezone: Asia/Beijing
 
 author:
-  name: 'Astrian'
-  email: mingriqd@gmail.com
+  name: 'Rainbow'
+  email: someone@example.com
 
-copyright: "版权所有 © 2015 Astrian &middot; 未经书面许可，不可复制本博客任何内容。"
+copyright: ""
 
 paginate: 5
