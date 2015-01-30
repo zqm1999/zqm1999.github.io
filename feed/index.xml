@@ -15,10 +15,10 @@
 				{% endif %}        
 				{% if post.excerpt %}
 					<description>{{ post.excerpt | xml_escape }}</description>
-                    <content:encoded><![CDATA[{{ post.content | xml_escape }}]]></content:encoded>
+                    <content><![CDATA[{{ post.content | xml_escape }}]]></content>
 				{% else %}
 					<description>{{ post.content | xml_escape }}</description>
-                    <content:encoded><![CDATA[{{ post.content | xml_escape }}]]></content:encoded>
+                    <content><![CDATA[{{ post.content | xml_escape }}]]></content>
 				{% endif %}
 				<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
 				<link>{{ site.url }}{{ post.url }}</link>
